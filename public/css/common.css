@@ -2659,6 +2659,21 @@ a.memory-mgmt.pull-right {
     margin-bottom: 5px;
 }
 
+#SnapABug_Button {
+    display: none;
+}
+
+a.intercom-button:hover {
+    right: 0;
+}
+a.intercom-button {
+    position: fixed;
+    right: -5px;
+    top: 42%;
+    cursor: pointer;
+    z-index: 100000;
+    zoom: 0.5;
+}
 
 /* Tabs */
 
